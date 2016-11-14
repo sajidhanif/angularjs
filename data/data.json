@@ -1,0 +1,20 @@
+[
+        {
+         "type": "condo",
+         "price": "220000",
+         "address": "213 Live Street",
+         "description": "Wow"
+        },
+        {
+        "type": "House",
+        "price": "450000",  
+        "address": "767 Kite Avenue",  
+        "description": "Nice" 
+        },
+        {
+        "type": "FLat",
+        "price": "650000",  
+        "address": "34 Hive Street",  
+        "description": "OK"     
+        }   
+    ]

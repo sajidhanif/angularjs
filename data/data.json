@@ -1,79 +1,79 @@
 [
   {
     "id": 1,
-    "type": "Condo",
+    "type": "Sport",
     "price": 220000,
-    "address": "213 Grove Street",
-    "description": "Excellent place, really nice view!",
+    "address": "BMW",
+    "description": "Excellent Condition",
     "details": {
-      "bedrooms": 2,
-      "bathrooms": 1.5,
-      "area": 921 
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "area": 2008 
     },
     "image":"crib-1"
   },
   {
     "id": 2,
-    "type": "House",
+    "type": "Sport",
     "price": 410500,
-    "address": "7823 Winding Way",
-    "description": "Beautiful home with lots of space for a large family.",
+    "address": "Mercedes",
+    "description": "Excellent Condition",
     "details": {
-      "bedrooms": 4,
+      "bedrooms": 3,
       "bathrooms": 3,
-      "area": 2145 
+      "area": 2008 
     },
     "image":"crib-2"
   },
   {
     "id": 3,
-    "type": "Duplex",
+    "type": "Sport",
     "price": 395000,
-    "address": "834 River Lane",
-    "description": "Great neighbourhood and lot's of nice green space.",
+    "address": "Range Rover",
+    "description": "Excellent Condition",
     "details": {
       "bedrooms": 3,
       "bathrooms": 2.5,
-      "area": 1500 
+      "area": 2008 
     },
     "image":"crib-3"
   },
   {
     "id": 4,
-    "type": "House",
+    "type": "Sport",
     "price": 755990,
-    "address": "7807 Forest Avenue",
-    "description": "Best house on the block!",
+    "address": "Bentley",
+    "description": "Excellent Condition",
     "details": {
-      "bedrooms": 6,
+      "bedrooms": 3,
       "bathrooms": 4.5,
-      "area": 3230 
+      "area": 2008 
     },
     "image":"crib-4"
   },
   {
     "id": 5,
-    "type": "Condo",
+    "type": "Sport",
     "price": 210500,
-    "address": "1857 Andover Court",
-    "description": "Nice little condo with room to grow.",
+    "address": "Audi",
+    "description": "Excellent Condition",
     "details": {
-      "bedrooms": 2,
+      "bedrooms": 3,
       "bathrooms": 1.5,
-      "area": 1023 
+      "area": 2008 
     },
     "image":"crib-5"
   },
   {
     "id": 6,
-    "type": "House",
+    "type": "Sport",
     "price": 334900,
-    "address": "7398 East Avenue",
-    "description": "You'll love the view!",
+    "address": "Ferrari",
+    "description": "Excellent Condition",
     "details": {
-      "bedrooms": 4,
+      "bedrooms": 2,
       "bathrooms": 2.5,
-      "area": 1788 
+      "area": 2008 
     },
     "image":"crib-6"
   }

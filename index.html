@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>mine</title>
+    <title>Sajid's Cars</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -12,7 +12,7 @@
 	  <nav class="navbar navbar-default">
 	    <div class="container-fluid">
 	      <div class="navbar-header">
-	        <a class="navbar-brand" href="#">ng-cribs</a>
+	        <a class="navbar-brand" href="#">AngularJS</a>
 	      </div>
 	    </div>
 	  </nav>
@@ -60,7 +60,7 @@
 		    <button 
 		    	class="btn btn-primary" 
 		    	ng-click="addListing = !addListing" 
-		    	ng-show="!addListing">Add Listing
+		    	ng-show="!addListing">Add Car
 		    </button>
 
 		    <button 
@@ -71,15 +71,15 @@
 
 		      <div class="listing-form" ng-if="addListing">
 
-		        <h3>Add a Listing</h3>
+		        <h3>Add a Car</h3>
 
 		        <div class="row listing-form-row">
 		          <div class="col-sm-4">
 		            <div class="input-group">
-		              <span class="input-group-addon">Address</span>
+		              <span class="input-group-addon">Car Name</span>
 		              <input 
 		              	type="text" 
-		              	placeholder="Enter the address" 
+		              	placeholder="Enter the Car Name" 
 		              	class="form-control" 
 		              	ng-model="newListing.address">
 		            </div>
@@ -98,17 +98,17 @@
 
 		          <div class="col-sm-4">
 		            <div class="input-group">
-		              <span class="input-group-addon">Property Type</span>
+		              <span class="input-group-addon">Car Type</span>
 		              <select 
 		              	type="select" 
-		              	name="propertyType" 
+		              	name="Car Type" 
 		              	id="propertyType" 
 		              	class="form-control" 
 		              	ng-model="newListing.type">
-			                <option value="House">House</option>
-			                <option value="Condo">Condo</option>
-			                <option value="Duplex">Duplex</option>
-			                <option value="Apartment">Apartment</option>
+			                <option value="Sport">Sport</option>
+			                <option value="Family">Family</option>
+			                <option value="Diesel">Diesel</option>
+			                <option value="Petrol">Petrol</option>
 		              </select>
 		            </div>
 		          </div>
@@ -131,10 +131,10 @@
 
 		            <div class="col-sm-4">
 		              <div class="input-group">
-		                <span class="input-group-addon">Beds</span>
+		                <span class="input-group-addon">Doors</span>
 		                <input 
 		                	type="text" 
-		                	placeholder="Bedrooms" 
+		                	placeholder="Doors" 
 		                	class="form-control" 
 		                	ng-model="newListing.details.bedrooms">
 		              </div>
@@ -142,10 +142,10 @@
 
 		            <div class="col-sm-4">
 		              <div class="input-group">
-		                <span class="input-group-addon">Baths</span>
+		                <span class="input-group-addon">MOT</span>
 		                <input 
 		                	type="text" 
-		                	placeholder="Bathrooms" 
+		                	placeholder="MOT" 
 		                	class="form-control" 
 		                	ng-model="newListing.details.bathrooms">
 		              </div>
@@ -153,10 +153,10 @@
 
 		            <div class="col-sm-4">
 		              <div class="input-group">
-		                <span class="input-group-addon">SqFt</span>
+		                <span class="input-group-addon">Reg</span>
 		                <input 
 		                	type="text" 
-		                	placeholder="Square Footage" 
+		                	placeholder="Reg" 
 		                	class="form-control" 
 		                	ng-model="newListing.details.area">
 		              </div>
@@ -174,15 +174,15 @@
 
 	        <div class="listing-form" ng-if="editListing">
 
-	         <h3>Edit Listing</h3>
+	         <h3>Edit Details</h3>
 
 	         <div class="row listing-form-row">
 	           <div class="col-sm-4">
 	             <div class="input-group">
-	               <span class="input-group-addon">Address</span>
+	               <span class="input-group-addon">Car Name</span>
 	               <input 
 	               	type="text"
-	               	placeholder="Enter the address"
+	               	placeholder="Car Name"
 	               	class="form-control"
 	               	ng-model="existingListing.address">
 	             </div>
@@ -201,17 +201,17 @@
 
 	           <div class="col-sm-4">
 	             <div class="input-group">
-	               <span class="input-group-addon">Property Type</span>
+	               <span class="input-group-addon">Car Type</span>
 	               <select 
 	               	type="select"
-	               	name="propertyType"
+	               	name="Type"
 	               	id="propertyType" 
 	               	class="form-control" 
 	               	ng-model="existingListing.type">
-	      	           <option value="House">House</option>
-	      	           <option value="Condo">Condo</option>
-	      	           <option value="Duplex">Duplex</option>
-	      	           <option value="Apartment">Apartment</option>
+	      	          <option value="Sport">Sport</option>
+			                <option value="Family">Family</option>
+			                <option value="Diesel">Diesel</option>
+			                <option value="Petrol">Petrol</option>
 	               </select>
 	             </div>
 	           </div>
@@ -234,10 +234,10 @@
 
 	             <div class="col-sm-4">
 	               <div class="input-group">
-	                 <span class="input-group-addon">Beds</span>
+	                 <span class="input-group-addon">Doors</span>
 	                 <input 
 	                 	type="text"
-	                 	placeholder="Bedrooms"
+	                 	placeholder="No. of Doors"
 	                 	class="form-control"
 	                 	ng-model="existingListing.details.bedrooms">
 	               </div>
@@ -245,10 +245,10 @@
 
 	             <div class="col-sm-4">
 	               <div class="input-group">
-	                 <span class="input-group-addon">Baths</span>
+	                 <span class="input-group-addon">MOT</span>
 	                 <input
 	                 	type="text"
-	                 	placeholder="Bathrooms"
+	                 	placeholder="MOT"
 	                 	class="form-control"
 	                 	ng-model="existingListing.details.bathrooms">
 	               </div>
@@ -256,10 +256,10 @@
 
 	             <div class="col-sm-4">
 	               <div class="input-group">
-	                 <span class="input-group-addon">SqFt</span>
+	                 <span class="input-group-addon">Reg</span>
 	                 <input
 	                 	type="text"
-	                 	placeholder="Square Footage"
+	                 	placeholder="Car Reg"
 	                 	class="form-control"
 	                 	ng-model="existingListing.details.area">
 	               </div>
@@ -322,9 +322,9 @@
 
             <div class="details" ng-show="showDetails === true">
               <h4>
-                <span class="label label-primary">Beds: {{crib.details.bedrooms}}</span>
-                <span class="label label-primary">Baths: {{crib.details.bathrooms}}</span>
-                <span class="label label-primary">SqFt: {{crib.details.area}}</span>
+                <span class="label label-primary">Doors: {{crib.details.bedrooms}}</span>
+                <span class="label label-primary">MOT: {{crib.details.bathrooms}}</span>
+                <span class="label label-primary">Reg: {{crib.details.area}}</span>
               </h4>
               <p>{{crib.description}}</p>              
             </div>
